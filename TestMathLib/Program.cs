@@ -10,7 +10,7 @@ namespace TestMathLib {
 
             Console.WriteLine($"3 squarded is {3.Squared()}");
             Console.WriteLine($"2 ^ 3 is {2.Power(3)}");
-
+            // down below is creating an instance so we can use it in our program.
             var mathLib = new MathLib();
             Console.WriteLine($"12 + 3 = {mathLib.Add(12, 3)}");
             Console.WriteLine($"12 - 3 = {mathLib.Subtract(12, 3)}");
